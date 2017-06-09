@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MDT Store - Aísla tu mundo </title>
-
+    <link rel="shortcut icon" href="../../public/favicon.ico"> <!-- Ver de insertar icono para pestaña del nav-->
     <!-- PLUGINS CSS STYLE -->
     {{--<link href="jquery-ui.css" tppabs="http://themes.iamabdus.com/bigbag/1.2/plugins/jquery-ui/jquery-ui.css" rel="stylesheet">--}}
     {!! Html::style('frontend/plugins/jquery-ui/jquery-ui.css') !!}
