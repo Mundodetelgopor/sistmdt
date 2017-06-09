@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="{{ config('app.locale') }}">
 <head>
 
@@ -34,6 +34,8 @@
     {!! Html::style('frontend/options/optionswitch.css') !!}
     {{--<link rel="stylesheet" href="default.css" tppabs="http://themes.iamabdus.com/bigbag/1.2/css/colors/default.css" id="option_color">--}}
     {!! Html::style('frontend/css/colors/default.css') !!}
+
+    <link rel="shortcut icon" href="../../public/favicon.ico"> <!-- Ver de insertar icono para pestaña del nav-->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -118,14 +120,14 @@
                     </div>
                     <div class="col-md-6 col-sm-7 col-xs-12">
                         <ul class="list-inline pull-right top-right">
-                            <li class="account-login"><span><a data-toggle="modal" href="javascript:if(confirm(%27http://themes.iamabdus.com/bigbag/1.2/.login-modal  \n\nThis file was not retrieved by Teleport Pro, because the server reports that this file cannot be found.  \n\nDo you want to open it from the server?%27))window.location=%27http://themes.iamabdus.com/bigbag/1.2/.login-modal%27" tppabs="http://themes.iamabdus.com/bigbag/1.2/.login-modal">Log in</a><small>or</small><a data-toggle="modal" href='#signup'>Create an account</a></span></li>
+                            <li class="account-login"><span><a data-toggle="modal" href="javascript:if(confirm(%27http://themes.iamabdus.com/bigbag/1.2/.login-modal  \n\nThis file was not retrieved by Teleport Pro, because the server reports that this file cannot be found.  \n\nDo you want to open it from the server?%27))window.location=%27http://themes.iamabdus.com/bigbag/1.2/.login-modal%27" tppabs="http://themes.iamabdus.com/bigbag/1.2/.login-modal">Ingresar</a><small>or</small><a data-toggle="modal" href='#signup'>Crea una cuenta</a></span></li>
                             <li class="searchBox">
                                 <a href="#"><i class="fa fa-search"></i></a>
                                 <ul class="dropdown-menu dropdown-menu-right">
                                     <li>
                         <span class="input-group">
                           <input type="text" class="form-control" placeholder="Search…" aria-describedby="basic-addon2">
-                          <button type="submit" class="input-group-addon">Submit</button>
+                          <button type="submit" class="input-group-addon">Enviar</button>
                         </span>
                                     </li>
                                 </ul>
@@ -133,7 +135,7 @@
                             <li class="dropdown cart-dropdown">
                                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-shopping-cart"></i>$0</a>
                                 <ul class="dropdown-menu dropdown-menu-right">
-                                    <li>Item(s) in your cart</li>
+                                    <li>Item(s) en tu carrito</li>
                                     <li>
                                         <a href="single-product.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/single-product.html">
                                             <div class="media">
@@ -179,24 +181,24 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index-v1.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/index-v1.html"><img src="{{ asset('frontend/img/logo.png') }}"  alt="logo"></a>
+                    <a class="navbar-brand" href="index-v1.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/index-v1.html"><img src="{{ asset('frontend/img/mdt-logo.png') }}" width="180" height="80" alt="logo"></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown active">
-                            <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
-                            <ul class="dropdown-menu dropdown-menu-left">
+                            <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Inicio</a>
+                            <!--<ul class="dropdown-menu dropdown-menu-left">
                                 <li class="active"><a href="index-v1.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/index-v1.html">Home Default</a></li>
                                 <li><a href="index-v2.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/index-v2.html">Home Classic</a></li>
                                 <li><a href="index-v3.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/index-v3.html">Home Deals</a></li>
                                 <li><a href="index-v4.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/index-v4.html">Home Mega</a></li>
-                            </ul>
+                            </ul>-->
                         </li>
                         <li class="dropdown megaDropMenu">
-                            <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="300" data-close-others="true" aria-expanded="false">Shop</b></a>
-                            <ul class="dropdown-menu row">
+                            <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="300" data-close-others="true" aria-expanded="false">Productos</b></a>
+                            <!--<ul class="dropdown-menu row">
                                 <li class="col-sm-3 col-xs-12">
                                     <ul class="list-unstyled">
                                         <li>Products Grid View</li>
@@ -206,8 +208,8 @@
                                         <li><a href="product-grid-3-col.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/product-grid-3-col.html">Products 3 Columns V2</a></li>
                                         <li><a href="product-grid-4-col.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/product-grid-4-col.html">Products 4 Columns</a></li>
                                     </ul>
-                                </li>
-                                <li class="col-sm-3 col-xs-12">
+                                </li>-->
+                             <!--   <li class="col-sm-3 col-xs-12">
                                     <ul class="list-unstyled">
                                         <li>Products List View</li>
                                         <li><a href="product-list-left-sidebar.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/product-list-left-sidebar.html">Products Sidebar Left</a></li>
@@ -230,11 +232,11 @@
                                 <li class="col-sm-3 col-xs-12">
                                     <a href="#" class="menu-photo"><img src="{{ asset('frontend/img/menu-photo.jpg') }}" alt="menu-img"></a>
                                 </li>
-                            </ul>
+                            </ul>-->
                         </li>
                         <li class="dropdown">
-                            <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">pages</a>
-                            <ul class="dropdown-menu dropdown-menu-left">
+                            <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nosotros</a>
+                          <!--  <ul class="dropdown-menu dropdown-menu-left">
                                 <li><a href="about-us.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/about-us.html">About Us</a></li>
                                 <li><a href="signup.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/signup.html">Register</a></li>
                                 <li><a href="signup-login.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/signup-login.html">Register or Login</a></li>
@@ -245,28 +247,28 @@
                                 <li><a href="404.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/404.html">404 Not Found</a></li>
 
                                 <li><a href="coming-soon.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/coming-soon.html">Coming Soon</a></li>
-                            </ul>
+                            </ul>-->
                         </li>
                         <li class="dropdown">
-                            <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">blog</a>
-                            <ul class="dropdown-menu dropdown-menu-right">
+                            <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contactanos</a>
+                           <!-- <ul class="dropdown-menu dropdown-menu-right">
                                 <li><a href="blog-right-sidebar.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/blog-right-sidebar.html">Right Sidebar</a></li>
                                 <li><a href="blog-left-sidebar.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/blog-left-sidebar.html">Left Sidebar</a></li>
                                 <li><a href="blog-fullwidth.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/blog-fullwidth.html">Full Width</a></li>
                                 <li><a href="blog-single-fullwidth.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/blog-single-fullwidth.html">Single Post</a></li>
                                 <li><a href="blog-single-right-sidebar.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/blog-single-right-sidebar.html">Single Right Sidebar</a></li>
                                 <li><a href="blog-single-left-sidebar.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/blog-single-left-sidebar.html">Single Left Sidebar</a></li>
-                            </ul>
+                            </ul>-->
                         </li>
-                        <li class="dropdown">
-                            <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Account</a>
+                       <!-- <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mi cuenta</a>
                             <ul class="dropdown-menu dropdown-menu-right">
-                                <li><a href="account-dashboard.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/account-dashboard.html">Dashboard</a></li>
-                                <li><a href="account-profile.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/account-profile.html">Profile</a></li>
-                                <li><a href="account-all-orders.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/account-all-orders.html">All Orders</a></li>
-                                <li><a href="account-single-order.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/account-single-order.html">Single Order</a></li>
-                                <li><a href="account-wishlist.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/account-wishlist.html">Wishlist</a></li>
-                                <li><a href="account-address.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/account-address.html">Address</a></li>
+                                <li><a href="account-dashboard.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/account-dashboard.html">Tablero</a></li>
+                                <li><a href="account-profile.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/account-profile.html">Perfil</a></li>
+                                <li><a href="account-all-orders.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/account-all-orders.html">Mis ordenes de compra</a></li>
+                                <li><a href="account-single-order.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/account-single-order.html">Orden actual</a></li>
+                                <li><a href="account-wishlist.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/account-wishlist.html">Lista de deseos</a></li>
+                                <li><a href="account-address.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/account-address.html">Direccion</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -283,7 +285,7 @@
                                 <li><a href="typography.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/typography.html">Typography</a></li>
                                 <li><a href="responsive-embed.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/responsive-embed.html">Responsive Embed</a></li>
                             </ul>
-                        </li>
+                        </li>-->
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div>
@@ -308,7 +310,7 @@
                                  data-start="1500"
                                  data-easing="Back.easeInOut"
                                  data-endspeed="300" >
-                                <img src="{{ asset('frontend/img/home/banner-slider/shoe1.png') }}"  alt="slider-image" style="width: 781px; height: 416px;">
+                                <img src="{{ asset('frontend/img/home/banner-slider/plancha1.jpg') }}"  alt="slider-image" style="width: 781px; height: 416px;">
                             </div>
 
                             <div class="tp-caption rs-caption-2 sft"
@@ -318,7 +320,7 @@
                                  data-start="2000"
                                  data-easing="Back.easeInOut"
                                  data-endspeed="300">
-                                Canvas Sneaker
+                                Placas Telgopor
                             </div>
 
                             <div class="tp-caption rs-caption-3 sft"
@@ -330,9 +332,9 @@
                                  data-endspeed="300"
                                  data-endeasing="Power1.easeIn"
                                  data-captionhidden="off">
-                                Exclusive to <br>
-                                BigBag <br>
-                                <small>Spring / Summer 2016</small>
+                                Exclusivo en<br>
+                                MDT<br>
+                                <small>Todo el 2017</small>
                             </div>
                             <div class="tp-caption rs-caption-4 sft"
                                  data-hoffset="0"
@@ -343,7 +345,7 @@
                                  data-endspeed="300"
                                  data-endeasing="Power1.easeIn"
                                  data-captionhidden="off">
-                                <span class="page-scroll"><a href="#" class="btn primary-btn">Buy Now<i class="glyphicon glyphicon-chevron-right"></i></a></span>
+                                <span class="page-scroll"><a href="#" class="btn primary-btn">Comprar!<i class="glyphicon glyphicon-chevron-right"></i></a></span>
                             </div>
                         </div>
                     </li>
@@ -357,7 +359,7 @@
                                  data-start="1500"
                                  data-easing="Back.easeInOut"
                                  data-endspeed="300">
-                                <img src="{{ asset('frontend/img/home/banner-slider/shoe2.png') }}" alt="slider-image">
+                                <img src="{{ asset('frontend/img/home/banner-slider/plancha2.jpg') }}" alt="slider-image">
                             </div>
 
                             <div class="tp-caption rs-caption-2 sft text-center"
@@ -367,7 +369,7 @@
                                  data-start="2000"
                                  data-easing="Back.easeInOut"
                                  data-endspeed="300">
-                                Exclusive to BigBag
+                                Exclusivo en MDT
                             </div>
 
                             <div class="tp-caption rs-caption-3 sft text-center"
@@ -379,7 +381,7 @@
                                  data-endspeed="300"
                                  data-endeasing="Power1.easeIn"
                                  data-captionhidden="off">
-                                Canvas Sneaker
+                                Planchas Telgopor
                             </div>
 
                             <div class="tp-caption rs-caption-4 sft text-center"
@@ -391,7 +393,7 @@
                                  data-endspeed="300"
                                  data-endeasing="Power1.easeIn"
                                  data-captionhidden="off">
-                                <span class="page-scroll"><a href="#" class="btn primary-btn">Buy Now<i class="glyphicon glyphicon-chevron-right"></i></a></span>
+                                <span class="page-scroll"><a href="#" class="btn primary-btn">Comprar!<i class="glyphicon glyphicon-chevron-right"></i></a></span>
                             </div>
                         </div>
                     </li>
@@ -405,7 +407,7 @@
                                  data-start="1500"
                                  data-easing="Back.easeInOut"
                                  data-endspeed="300">
-                                <img src="{{ asset('frontend/img/home/banner-slider/shoe3.png') }}" alt="slider-image">
+                                <img src="{{ asset('frontend/img/home/banner-slider/plancha3.jpg') }}" alt="slider-image">
                             </div>
 
                             <div class="tp-caption rs-caption-2 sft "
@@ -416,7 +418,7 @@
                                  data-start="2000"
                                  data-easing="Back.easeInOut"
                                  data-endspeed="300">
-                                Canvas Sneaker
+                                Placas Telgopor
                             </div>
 
                             <div class="tp-caption rs-caption-3 sft"
@@ -429,9 +431,9 @@
                                  data-endspeed="300"
                                  data-endeasing="Power1.easeIn"
                                  data-captionhidden="off">
-                                Exclusive to <br>
-                                BigBag <br>
-                                <small>Spring / Summer 2016</small>
+                                Exclusivo en<br>
+                                MDT<br>
+                                <small>Todo el 2017</small>
                             </div>
 
                             <div class="tp-caption rs-caption-4 sft"
@@ -444,7 +446,7 @@
                                  data-endspeed="300"
                                  data-endeasing="Power1.easeIn"
                                  data-captionhidden="off">
-                                <span class="page-scroll"><a href="#" class="btn primary-btn">Buy Now<i class="glyphicon glyphicon-chevron-right"></i></a></span>
+                                <span class="page-scroll"><a href="#" class="btn primary-btn">Comprar!<i class="glyphicon glyphicon-chevron-right"></i></a></span>
                             </div>
                         </div>
                     </li>
@@ -459,14 +461,14 @@
             <div class="row featuredCollection margin-bottom">
                 <div class="col-xs-12">
                     <div class="page-header">
-                        <h4>Featured Collection</h4>
+                        <h4>Colecciones Destacadas</h4>
                     </div>
                 </div>
                 <div class="col-sm-4 col-xs-12">
                     <div class="thumbnail" onclick="location.href='single-product.html'/*tpa=http://themes.iamabdus.com/bigbag/1.2/single-product.html*/;">
                         <div class="imageWrapper">
-                            <img src="{{ asset('frontend/img/home/featured-collection/featured-collection-01.jpg') }}"  alt="feature-collection-image">
-                            <div class="masking"><a href="product-grid-left-sidebar.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/product-grid-left-sidebar.html" class="btn viewBtn">View Prodocts</a></div>
+                            <img src="{{ asset('frontend/img/home/featured-collection/plancha1.jpg') }}" alt="feature-collection-image">
+                            <div class="masking"><a href="product-grid-left-sidebar.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/product-grid-left-sidebar.html" class="btn viewBtn">Ver Productos</a></div>
                         </div>
                         <div class="caption">
                             <h4>Shoes</h4>
@@ -476,8 +478,8 @@
                 <div class="col-sm-4 col-xs-12">
                     <div class="thumbnail" onclick="location.href='single-product.html'/*tpa=http://themes.iamabdus.com/bigbag/1.2/single-product.html*/;">
                         <div class="imageWrapper">
-                            <img src="{{ asset('frontend/img/home/featured-collection/featured-collection-02.jpg') }}" alt="feature-collection-image">
-                            <div class="masking"><a href="product-grid-left-sidebar.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/product-grid-left-sidebar.html" class="btn viewBtn">View Prodocts</a></div>
+                            <img src="{{ asset('frontend/img/home/featured-collection/plancha2.jpg') }}" alt="feature-collection-image">
+                            <div class="masking"><a href="product-grid-left-sidebar.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/product-grid-left-sidebar.html" class="btn viewBtn">Ver Productos</a></div>
                         </div>
                         <div class="caption">
                             <h4>Bags</h4>
@@ -487,8 +489,8 @@
                 <div class="col-sm-4 col-xs-12">
                     <div class="thumbnail" onclick="location.href='single-product.html'/*tpa=http://themes.iamabdus.com/bigbag/1.2/single-product.html*/;">
                         <div class="imageWrapper">
-                            <img src="{{ asset('frontend/img/home/featured-collection/featured-collection-03.jpg') }}" alt="feature-collection-image">
-                            <div class="masking"><a href="product-grid-left-sidebar.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/product-grid-left-sidebar.html" class="btn viewBtn">View Prodocts</a></div>
+                            <img src="{{ asset('frontend/img/home/featured-collection/plancha3.jpg') }}" width="410" height="360 "alt="feature-collection-image">
+                            <div class="masking"><a href="product-grid-left-sidebar.html" tppabs="http://themes.iamabdus.com/bigbag/1.2/product-grid-left-sidebar.html" class="btn viewBtn">Ver Productos</a></div>
                         </div>
                         <div class="caption">
                             <h4>Glasses</h4>
@@ -499,14 +501,14 @@
             <div class="row featuredProducts margin-bottom">
                 <div class="col-xs-12">
                     <div class="page-header">
-                        <h4>Featured Products</h4>
+                        <h4>Productos destacados</h4>
                     </div>
                 </div>
                 <div class="col-xs-12">
                     <div class="owl-carousel featuredProductsSlider">
                         <div class="slide">
                             <div class="productImage clearfix">
-                                <img src="{{ asset('frontend/img/home/featured-product/product-01.jpg') }}" alt="featured-product-img">
+                                <img src="{{ asset('frontend/img/home/featured-product/img12.jpg') }}" alt="featured-product-img" height="240px">
                                 <div class="productMasking">
                                     <ul class="list-inline btn-group" role="group">
                                         <li><a data-toggle="modal" href="javascript:if(confirm(%27http://themes.iamabdus.com/bigbag/1.2/.login-modal  \n\nThis file was not retrieved by Teleport Pro, because the server reports that this file cannot be found.  \n\nDo you want to open it from the server?%27))window.location=%27http://themes.iamabdus.com/bigbag/1.2/.login-modal%27" tppabs="http://themes.iamabdus.com/bigbag/1.2/.login-modal" class="btn btn-default"><i class="fa fa-heart"></i></a></li>
@@ -524,7 +526,7 @@
                         </div>
                         <div class="slide">
                             <div class="productImage">
-                                <img src="{{ asset('frontend/img/home/featured-product/product-02.jpg') }}" tppabs="http://themes.iamabdus.com/bigbag/1.2/img/home/featured-product/product-02.jpg" alt="featured-product-img">
+                                <img src="{{ asset('frontend/img/home/featured-product/img1.jpg') }}" tppabs="http://themes.iamabdus.com/bigbag/1.2/img/home/featured-product/product-02.jpg" alt="featured-product-img" height="240px">
                                 <div class="productMasking">
                                     <ul class="list-inline btn-group" role="group">
                                         <li><a data-toggle="modal" href="javascript:if(confirm(%27http://themes.iamabdus.com/bigbag/1.2/.login-modal  \n\nThis file was not retrieved by Teleport Pro, because the server reports that this file cannot be found.  \n\nDo you want to open it from the server?%27))window.location=%27http://themes.iamabdus.com/bigbag/1.2/.login-modal%27" tppabs="http://themes.iamabdus.com/bigbag/1.2/.login-modal" class="btn btn-default"><i class="fa fa-heart"></i></a></li>
@@ -542,7 +544,7 @@
                         </div>
                         <div class="slide">
                             <div class="productImage">
-                                <img src="{{ asset('frontend/img/home/featured-product/product-03.jpg') }}" tppabs="http://themes.iamabdus.com/bigbag/1.2/img/home/featured-product/product-03.jpg" alt="featured-product-img">
+                                <img src="{{ asset('frontend/img/home/featured-product/img2.jpg') }}" tppabs="http://themes.iamabdus.com/bigbag/1.2/img/home/featured-product/product-03.jpg" alt="featured-product-img" height="240px">
                                 <div class="productMasking">
                                     <ul class="list-inline btn-group" role="group">
                                         <li><a data-toggle="modal" href="javascript:if(confirm(%27http://themes.iamabdus.com/bigbag/1.2/.login-modal  \n\nThis file was not retrieved by Teleport Pro, because the server reports that this file cannot be found.  \n\nDo you want to open it from the server?%27))window.location=%27http://themes.iamabdus.com/bigbag/1.2/.login-modal%27" tppabs="http://themes.iamabdus.com/bigbag/1.2/.login-modal" class="btn btn-default"><i class="fa fa-heart"></i></a></li>
@@ -560,7 +562,7 @@
                         </div>
                         <div class="slide">
                             <div class="productImage">
-                                <img src="{{ asset('frontend/img/home/featured-product/product-04.jpg') }}" tppabs="http://themes.iamabdus.com/bigbag/1.2/img/home/featured-product/product-04.jpg" alt="featured-product-img">
+                                <img src="{{ asset('frontend/img/home/featured-product/img3.jpg') }}" tppabs="http://themes.iamabdus.com/bigbag/1.2/img/home/featured-product/product-04.jpg" alt="featured-product-img" height="240px">
                                 <div class="productMasking">
                                     <ul class="list-inline btn-group" role="group">
                                         <li><a data-toggle="modal" href="javascript:if(confirm(%27http://themes.iamabdus.com/bigbag/1.2/.login-modal  \n\nThis file was not retrieved by Teleport Pro, because the server reports that this file cannot be found.  \n\nDo you want to open it from the server?%27))window.location=%27http://themes.iamabdus.com/bigbag/1.2/.login-modal%27" tppabs="http://themes.iamabdus.com/bigbag/1.2/.login-modal" class="btn btn-default"><i class="fa fa-heart"></i></a></li>
@@ -578,7 +580,7 @@
                         </div>
                         <div class="slide">
                             <div class="productImage">
-                                <img src="{{ asset('frontend/img/home/featured-product/product-05.jpg') }}" tppabs="http://themes.iamabdus.com/bigbag/1.2/img/home/featured-product/product-05.jpg" alt="featured-product-img">
+                                <img src="{{ asset('frontend/img/home/featured-product/img6.jpg') }}" tppabs="http://themes.iamabdus.com/bigbag/1.2/img/home/featured-product/product-05.jpg" alt="featured-product-img" height="240px">
                                 <div class="productMasking">
                                     <ul class="list-inline btn-group" role="group">
                                         <li><a data-toggle="modal" href="javascript:if(confirm(%27http://themes.iamabdus.com/bigbag/1.2/.login-modal  \n\nThis file was not retrieved by Teleport Pro, because the server reports that this file cannot be found.  \n\nDo you want to open it from the server?%27))window.location=%27http://themes.iamabdus.com/bigbag/1.2/.login-modal%27" tppabs="http://themes.iamabdus.com/bigbag/1.2/.login-modal" class="btn btn-default"><i class="fa fa-heart"></i></a></li>
@@ -596,7 +598,7 @@
                         </div>
                         <div class="slide">
                             <div class="productImage">
-                                <img src="{{ asset('frontend/img/home/featured-product/product-06.jpg') }}" tppabs="http://themes.iamabdus.com/bigbag/1.2/img/home/featured-product/product-06.jpg" alt="featured-product-img">
+                                <img src="{{ asset('frontend/img/home/featured-product/img7.jpg') }}" tppabs="http://themes.iamabdus.com/bigbag/1.2/img/home/featured-product/product-06.jpg" alt="featured-product-img" height="240px">
                                 <div class="productMasking">
                                     <ul class="list-inline btn-group" role="group">
                                         <li><a data-toggle="modal" href="javascript:if(confirm(%27http://themes.iamabdus.com/bigbag/1.2/.login-modal  \n\nThis file was not retrieved by Teleport Pro, because the server reports that this file cannot be found.  \n\nDo you want to open it from the server?%27))window.location=%27http://themes.iamabdus.com/bigbag/1.2/.login-modal%27" tppabs="http://themes.iamabdus.com/bigbag/1.2/.login-modal" class="btn btn-default"><i class="fa fa-heart"></i></a></li>
@@ -614,7 +616,7 @@
                         </div>
                         <div class="slide">
                             <div class="productImage">
-                                <img src="{{ asset('frontend/img/home/featured-product/product-07.jpg') }}" tppabs="http://themes.iamabdus.com/bigbag/1.2/img/home/featured-product/product-07.jpg" alt="featured-product-img">
+                                <img src="{{ asset('frontend/img/home/featured-product/img9.jpg') }}" tppabs="http://themes.iamabdus.com/bigbag/1.2/img/home/featured-product/product-07.jpg" alt="featured-product-img" height="240px">
                                 <div class="productMasking">
                                     <ul class="list-inline btn-group" role="group">
                                         <li><a data-toggle="modal" href="javascript:if(confirm(%27http://themes.iamabdus.com/bigbag/1.2/.login-modal  \n\nThis file was not retrieved by Teleport Pro, because the server reports that this file cannot be found.  \n\nDo you want to open it from the server?%27))window.location=%27http://themes.iamabdus.com/bigbag/1.2/.login-modal%27" tppabs="http://themes.iamabdus.com/bigbag/1.2/.login-modal" class="btn btn-default"><i class="fa fa-heart"></i></a></li>
@@ -632,7 +634,7 @@
                         </div>
                         <div class="slide">
                             <div class="productImage">
-                                <img src="{{ asset('frontend/img/home/featured-product/product-09.jpg') }}" tppabs="http://themes.iamabdus.com/bigbag/1.2/img/home/featured-product/product-09.jpg" alt="featured-product-img">
+                                <img src="{{ asset('frontend/img/home/featured-product/img14.jpg') }}" tppabs="http://themes.iamabdus.com/bigbag/1.2/img/home/featured-product/product-09.jpg" alt="featured-product-img" height="240px">
                                 <div class="productMasking">
                                     <ul class="list-inline btn-group" role="group">
                                         <li><a data-toggle="modal" href="javascript:if(confirm(%27http://themes.iamabdus.com/bigbag/1.2/.login-modal  \n\nThis file was not retrieved by Teleport Pro, because the server reports that this file cannot be found.  \n\nDo you want to open it from the server?%27))window.location=%27http://themes.iamabdus.com/bigbag/1.2/.login-modal%27" tppabs="http://themes.iamabdus.com/bigbag/1.2/.login-modal" class="btn btn-default"><i class="fa fa-heart"></i></a></li>
@@ -772,7 +774,7 @@
                 </div>
                 <div class="col-sm-2 col-xs-12">
                     <div class="footerLink">
-                        <h5>BRANDS</h5>
+                        <h5>Marcas</h5>
                         <ul class="list-unstyled">
                             <li><a href="#">Barbour </a></li>
                             <li><a href="#">Brioni </a></li>
@@ -796,10 +798,10 @@
                 </div>
                 <div class="col-sm-2 col-xs-12">
                     <div class="footerLink">
-                        <h5>Get in Touch</h5>
+                        <h5>Contacto</h5>
                         <ul class="list-unstyled">
-                            <li>Call us at (555)-555-5555</li>
-                            <li><a href="mailto:support@iamabdus.com">support@iamabdus.com</a></li>
+                            <li>Llamanos al (0261)-589-4258</li>
+                            <li><a href="mailto:support@iamabdus.com">sistemas.mdt@gmail.com</a></li>
                         </ul>
                         <ul class="list-inline">
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -812,9 +814,9 @@
                 </div>
                 <div class="col-sm-4 col-xs-12">
                     <div class="newsletter clearfix">
-                        <h4>Newsletter</h4>
-                        <h3>Sign up now</h3>
-                        <p>Enter your email address and get notified about new products. We hate spam!</p>
+                        <h4>Noticias</h4>
+                        <h3>Registrate ahora!!!</h3>
+                        <p>Ingresa tu correo electronico y recibe todas las novedades de nuestros nuevos productos. Nosotros odiamos el spam!</p>
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="your email address" aria-describedby="basic-addon2">
                             <a href="#" class="input-group-addon" id="basic-addon2">go <i class="glyphicon glyphicon-chevron-right"></i></a>
@@ -850,21 +852,21 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h3 class="modal-title">log in</h3>
+                <h3 class="modal-title">Ingresar</h3>
             </div>
             <div class="modal-body">
                 <form action="" method="POST" role="form">
                     <div class="form-group">
-                        <label for="">Enter Email</label>
+                        <label for="">Carga tu email</label>
                         <input type="email" class="form-control" id="">
                     </div>
                     <div class="form-group">
-                        <label for="">Password</label>
+                        <label for="">Contraseña</label>
                         <input type="password" class="form-control" id="">
                     </div>
                     <div class="checkbox">
                         <label>
-                            <input type="checkbox"> Remember Me
+                            <input type="checkbox"> Recuerdame
                         </label>
                     </div>
                     <button type="submit" class="btn btn-primary btn-block">log in</button>
