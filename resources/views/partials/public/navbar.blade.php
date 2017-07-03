@@ -13,59 +13,24 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right" id="menu-nav">
                 <li class="dropdown active">
-                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Inicio</a>
-                </li>
-                <li class="dropdown megaDropMenu">
-                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="300" data-close-others="true" aria-expanded="false">Producto</b></a>
-                    <ul class="dropdown-menu row">
-                        <li class="col-sm-3 col-xs-12">
-                            <ul class="list-unstyled">
-                                <li>Products Grid View</li>
-                                <li><a href="product-grid-left-sidebar.html">Products Sidebar Left</a></li>
-                                <li><a href="product-grid-right-sidebar.html">Products Sidebar Right</a></li>
-                                <li><a href="product-grid-3-col-filter.html">Products 3 Columns V1</a></li>
-                                <li><a href="product-grid-3-col.html">Products 3 Columns V2</a></li>
-                                <li><a href="product-grid-4-col.html">Products 4 Columns</a></li>
-                            </ul>
-                        </li>
-                        <li class="col-sm-3 col-xs-12">
-                            <ul class="list-unstyled">
-                                <li>Products List View</li>
-                                <li><a href="product-list-left-sidebar.html">Products Sidebar Left</a></li>
-                                <li><a href="product-list-right-sidebar.html">Products Sidebar Right</a></li>
-                                <li class="listHeading">Others</li>
-                                <li><a href="single-product.html">Single Product</a></li>
-                                <li><a href="cart-page.html">Cart Page</a></li>
-                            </ul>
-                        </li>
-                        <li class="col-sm-3 col-xs-12">
-                            <ul class="list-unstyled">
-                                <li>Checkout</li>
-                                <li><a href="checkout-step-1.html">Step 1 - Address</a></li>
-                                <li><a href="checkout-step-2.html">Step 2 - Shipping</a></li>
-                                <li><a href="checkout-step-3.html">Step 3 - Payment</a></li>
-                                <li><a href="checkout-step-4.html">Step 4 - Payment</a></li>
-                                <li><a href="checkout-complete.html">Order Complete</a></li>
-                            </ul>
-                        </li>
-                        <li class="col-sm-3 col-xs-12">
-                            <a href="#" class="menu-photo"><img src="img/menu-photo.jpg" alt="menu-img"></a>
-                        </li>
-                    </ul>
+                    <a id="menu-1" href="#home">Inicio</a>
                 </li>
                 <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ventajas</a>
+                    <a id="menu-2" href="#product">Producto</a>
                 </li>
                 <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servicios</a>
+                    <a id="menu-3" href="#advantage">Ventajas</a>
                 </li>
                 <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Somos</a>
+                    <a id="menu-4" href="#services">Servicios</a>
                 </li>
                 <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contacto</a>
+                    <a id="menu-5" href="#about">Somos</a>
+                </li>
+                <li class="dropdown">
+                    <a href="contact">Contacto</a>
                 </li>
             </ul>
         </div><!-- /.navbar-collapse -->
