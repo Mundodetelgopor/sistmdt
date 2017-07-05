@@ -1,7 +1,7 @@
 <i class="option-switcher-btn fa fa-shopping-cart hidden-xs"></i>
 <div class="option-switcher animated">
     <div class="option-swticher-header">
-        <div class="option-switcher-heading">Tienda Online</div>
+        <div class="option-switcher-heading">Tienda de Productos</div>
         <div class="theme-close"><i class="fa fa-close"></i></div>
     </div>
     <div class="option-swticher-body">
@@ -15,34 +15,8 @@
         </ul>
         <!-- Layout Styles -->
         <div class="row no-col-space layoutStyle">
-            <div class="col-xs-6">
-                <a href="javascript:void(0);" class="btn-u  btn-block active-switcher-btn wide-layout-btn">Wide</a>
-            </div>
-            <div class="col-xs-6">
-                <a href="javascript:void(0);" class="btn-u btn-block boxed-layout-btn">Boxed</a>
-            </div>
-        </div>
-        <!-- Background pattern -->
-        <div class="bg-patern">
-            <h3>Background pattern</h3>
-            <ul class="list-unstyled">
-                <li class="pattern-default pattern-active"></li>
-                <li class="pattern1"></li>
-                <li class="pattern2"></li>
-                <li class="pattern3 last"></li>
-                <li class="pattern4"></li>
-                <li class="pattern5"></li>
-                <li class="pattern6"></li>
-                <li class="pattern7 last"></li>
-            </ul>
-        </div>
-        <!-- Header Styles -->
-        <div class="row no-col-space headerStyle">
-            <div class="col-xs-6">
-                <a href="javascript:void(0);" class="btn-u btn-block active-switcher-btn fixed-header">Fixed header</a>
-            </div>
-            <div class="col-xs-6">
-                <a href="javascript:void(0);" class="btn-u btn-block static-header">Static header</a>
+            <div class="col-xs-12">
+                <a href="shop" class="btn-u  btn-block btn-primary-filled">Conocer más</a>
             </div>
         </div>
     </div>

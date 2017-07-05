@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('institutional');
 });
+
+Route::get('/contact', function () {
+    return view('public.contact');
+});
+
+Route::get('/shop', function () {
+    return view('public.shop');
+});
