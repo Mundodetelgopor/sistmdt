@@ -28,7 +28,7 @@
                 menu = target;
             $target = $(target);
             $('html, body').stop().animate({
-                'scrollTop': $target.offset().top+2
+                'scrollTop': $target.offset().top-150
             }, 500, 'swing', function () {
                 window.location.hash = target;
                 $(document).on("scroll", onScroll);
@@ -37,7 +37,7 @@
     });
 
     function onScroll(event){
-        var scrollPos = $(document).scrollTop();
+        var scrollPos = $(document).scrollTop()+150;
         $('#menu-nav a').each(function () {
             var currLink = $(this);
             var refElement = $(currLink.attr("href"));
