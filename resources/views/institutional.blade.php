@@ -39,7 +39,7 @@
                              data-start="2000"
                              data-easing="Back.easeInOut"
                              data-endspeed="300">
-                            Canvas Sneaker
+                            Placa de Telgopor
                         </div>
 
                         <div class="tp-caption rs-caption-3 sft"
@@ -51,9 +51,8 @@
                              data-endspeed="300"
                              data-endeasing="Power1.easeIn"
                              data-captionhidden="off">
-                            Exclusive to <br>
-                            BigBag <br>
-                            <small>Spring / Summer 2016</small>
+                                A TU MEDIDA<br>
+                           <!-- <small>Spring / Summer 2016</small>-->
                         </div>
                         <div class="tp-caption rs-caption-4 sft"
                              data-hoffset="0"
@@ -64,7 +63,7 @@
                              data-endspeed="300"
                              data-endeasing="Power1.easeIn"
                              data-captionhidden="off">
-                            <span class="page-scroll"><a href="#" class="btn primary-btn">Buy Now<i
+                            <span class="page-scroll"><a href="#" class="btn primary-btn">Consultar<i
                                             class="glyphicon glyphicon-chevron-right"></i></a></span>
                         </div>
                     </div>
@@ -90,7 +89,7 @@
                              data-start="2000"
                              data-easing="Back.easeInOut"
                              data-endspeed="300">
-                            Exclusive to BigBag
+                            Liviano y resistente
                         </div>
 
                         <div class="tp-caption rs-caption-3 sft text-center"
@@ -102,7 +101,7 @@
                              data-endspeed="300"
                              data-endeasing="Power1.easeIn"
                              data-captionhidden="off">
-                            Canvas Sneaker
+                            Embalaje para tus botellas
                         </div>
 
                         <div class="tp-caption rs-caption-4 sft text-center"
@@ -114,7 +113,7 @@
                              data-endspeed="300"
                              data-endeasing="Power1.easeIn"
                              data-captionhidden="off">
-                            <span class="page-scroll"><a href="#" class="btn primary-btn">Buy Now<i
+                            <span class="page-scroll"><a href="#" class="btn primary-btn">Consultar<i
                                             class="glyphicon glyphicon-chevron-right"></i></a></span>
                         </div>
                     </div>
@@ -141,7 +140,7 @@
                              data-start="2000"
                              data-easing="Back.easeInOut"
                              data-endspeed="300">
-                            Canvas Sneaker
+                            Losetas
                         </div>
 
                         <div class="tp-caption rs-caption-3 sft"
@@ -154,9 +153,9 @@
                              data-endspeed="300"
                              data-endeasing="Power1.easeIn"
                              data-captionhidden="off">
-                            Exclusive to <br>
-                            BigBag <br>
-                            <small>Spring / Summer 2016</small>
+                            Aislante Termico <br>
+                            y Acustico <br>
+                          <!--  <small>Spring / Summer 2016</small> -->
                         </div>
 
                         <div class="tp-caption rs-caption-4 sft"
@@ -190,17 +189,17 @@
             </div>
         </div>
         <div class="col-sm-6 col-sm-push-6 col-xs-12">
-            <img src="{{ asset('frontend/img/about-us/title-img.jpg') }}" alt="about-us-img">
+            <iframe width="510" height="287" src="https://www.youtube.com/embed/ON9wFdPdQl8" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="col-sm-6 col-sm-pull-6 col-xs-12">
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <p>Mauris lobortis augue ex, ut faucibus nisi mollis ac. Sed volutpat scelerisque ex ut ullamcorper. Cras at velit quis sapien dapibus laoreet a id odio. Sed sit amet accumsan ante, eu congue metus. Aenean eros tortor, cursus quis feugiat sed, vestibulum vel purus. Etiam aliquam turpis quis blandit finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor placerat lectus, facilisis ornare leo tincidunt vel. Duis rutrum felis felis, eget malesuada massa tincidunt a.</p>
+            <p class="lead">Siendo el Telgopor un material inocuo, de olor y sabor neutros, que no favorece el crecimiento de hongos y bacterias, es el más indicado para emplearse en la protección, transporte y comercialización de cualquier producto.</p>
+            <p class="lead">Proveemos embalajes a medida a todo tipo de industrias. Entre ellas: industria alimenticia, electrónica, automotriz, equipamiento médico, cristalería, laboratorios, metalmecánica, etc.</p>
             <ul class="unorder-list lists">
-                <li>Neque porro quisquam est,</li>
-                <li>qui dolorem ipsum quia dolor sit amet, </li>
-                <li>consectetur, adipisci velit, sed quia</li>
-                <li>non numquam eius modi tempora incidunt </li>
-                <li>ut labore et dolore magnam aliquam</li>
+                <li>Liviano</li>
+                <li>Aislante térmico</li>
+                <li>Correcta resistencia al esfuerzo cortante</li>
+                <li>Ecológico</li>
+               
             </ul>
         </div>
     </div>
@@ -208,7 +207,7 @@
         <div class="row featuredCollection version2">
             <div class="col-xs-12">
                 <div class="page-header">
-                    <h4>Featured Products</h4>
+                    <h4>PRODUCTOS DESTACADOS</h4>
                 </div>
             </div>
             <div class="col-xs-12">
@@ -218,9 +217,9 @@
                             <a href="single-product.html"><img src="{{ asset('frontend/img/home/featured-collection/product-img1.png') }}" alt="Product Image"></a>
                         </div>
                         <div class="productCaption clearfix text-right">
-                            <h3><a href="single-product.html">for women’s</a></h3>
-                            <p>Lorem ipsum dolor sit ameit</p>
-                            <a href="single-product.html" class="btn btn-border">Shop Now</a>
+                            <h3><a href="single-product.html">PLACAS POLIESTIRENO EXPANDIDO (EPS)</a></h3>
+                            <p>Cortes a medidas según la necesidad del cliente</p>                           
+                            <a href="single-product.html" class="btn btn-border">Consultar</a>
                         </div>
                     </div>
                     <div class="slide">
@@ -228,9 +227,9 @@
                             <a href="single-product.html"><img src="{{ asset('frontend/img/home/featured-collection/product-img2.png') }}" alt="Product Image"></a>
                         </div>
                         <div class="productCaption clearfix text-left pull-left">
-                            <h3><a href="single-product.html">for men’s</a></h3>
-                            <p>Lorem ipsum dolor sit ameit</p>
-                            <a href="single-product.html" class="btn btn-border">Shop Now</a>
+                            <h3><a href="single-product.html">EMBALAJE PARA BOTELLAS</a></h3>
+                            <p>Embalajes a medida para envíos seguros</p>
+                            <a href="single-product.html" class="btn btn-border">Consultar</a>
                         </div>
                     </div>
                     <div class="slide">
@@ -238,9 +237,9 @@
                             <a href="single-product.html"><img src="{{ asset('frontend/img/home/featured-collection/product-img1.png') }}" alt="Product Image"></a>
                         </div>
                         <div class="productCaption clearfix text-right">
-                            <h3><a href="single-product.html">for women’s</a></h3>
-                            <p>Lorem ipsum dolor sit ameit</p>
-                            <a href="single-product.html" class="btn btn-border">Shop Now</a>
+                            <h3><a href="single-product.html">Losetas</a></h3>
+                            <p>Material de la mejor calidad</p>
+                            <a href="single-product.html" class="btn btn-border">Consultar</a>
                         </div>
                     </div>
                     <div class="slide">
@@ -248,9 +247,9 @@
                             <a href="single-product.html"><img src="{{ asset('frontend/img/home/featured-collection/product-img2.png') }}" alt="Product Image"></a>
                         </div>
                         <div class="productCaption clearfix text-left pull-left">
-                            <h3><a href="single-product.html">for men’s</a></h3>
-                            <p>Lorem ipsum dolor sit ameit</p>
-                            <a href="single-product.html" class="btn btn-border">Shop Now</a>
+                            <h3><a href="single-product.html">Molduras</a></h3>
+                            <p>Fácil colocación, Excelente terminación y Económica!</p>
+                            <a href="single-product.html" class="btn btn-border">Consultar</a>
                         </div>
                     </div>
                 </div>
@@ -261,9 +260,9 @@
         <div class="col-xs-12">
             <div class="tabCommon">
                 <ul class="nav nav-tabs">
-                    <li class="active"><a data-toggle="tab" href="#menu1">New Araivals</a></li>
-                    <li><a data-toggle="tab" href="#menu2">Top Rated</a></li>
-                    <li><a data-toggle="tab" href="#menu3">On Sale</a></li>
+                    <li class="active"><a data-toggle="tab" href="#menu1">Mas Vendidos</a></li>
+                <!--    <li><a data-toggle="tab" href="#menu2">Top Rated</a></li> -->
+                <!--    <li><a data-toggle="tab" href="#menu3">On Sale</a></li> -->
                 </ul>
                 <div class="tab-bottom">
                 </div>
@@ -285,7 +284,7 @@
                                         </div>
                                     </div>
                                     <div class="productCaption clearfix">
-                                        <h5><a href="single-product.html">Mauris efficitur</a></h5>
+                                        <h5><a href="single-product.html">Bolsa de Telgopor Molido</a></h5>
                                         <h3>$199</h3>
                                     </div>
                                 </div>
@@ -305,7 +304,7 @@
                                         </div>
                                     </div>
                                     <div class="productCaption clearfix">
-                                        <h5><a href="single-product.html">Mauris efficitur</a></h5>
+                                        <h5><a href="single-product.html">Molduras</a></h5>
                                         <h3>$199</h3>
                                     </div>
                                 </div>
@@ -325,7 +324,7 @@
                                         </div>
                                     </div>
                                     <div class="productCaption clearfix">
-                                        <h5><a href="single-product.html">Mauris efficitur</a></h5>
+                                        <h5><a href="single-product.html">Losetas</a></h5>
                                         <h3>$199</h3>
                                     </div>
                                 </div>
@@ -345,7 +344,7 @@
                                         </div>
                                     </div>
                                     <div class="productCaption clearfix">
-                                        <h5><a href="single-product.html">Mauris efficitur</a></h5>
+                                        <h5><a href="single-product.html">Placas para cielo raso</a></h5>
                                         <h3>$199</h3>
                                     </div>
                                 </div>
@@ -369,7 +368,7 @@
                                         </div>
                                     </div>
                                     <div class="productCaption clearfix">
-                                        <h5><a href="single-product.html">Mauris efficitur</a></h5>
+                                        <h5><a href="single-product.html">Embalaje para botellas</a></h5>
                                         <h3>$199</h3>
                                     </div>
                                 </div>
@@ -389,7 +388,7 @@
                                         </div>
                                     </div>
                                     <div class="productCaption clearfix">
-                                        <h5><a href="single-product.html">Mauris efficitur</a></h5>
+                                        <h5><a href="single-product.html">Placas de Poliestireno expandido (EPS)</a></h5>
                                         <h3>$199</h3>
                                     </div>
                                 </div>
@@ -526,7 +525,7 @@
     </div>
 
         <!-- VENTAJAS SECTION -->
-        <div class="row featuredCollection version2 margin-bottom" id="advantage">
+    <!--    <div class="row featuredCollection version2 margin-bottom" id="advantage">
             <div class="col-xs-12">
                 <div class="page-header">
                     <h4>Ventajas</h4>
@@ -540,7 +539,7 @@
                             </div>
                             <div class="testimonialText">
                       <span class="product-rating">
-                        Ventajas 1
+                        Aislante térmico
                       </span>
                                 <div class="testimonial-content">
                                     <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
@@ -562,7 +561,7 @@
                             </div>
                             <div class="testimonialText">
                       <span class="product-rating">
-                        Ventajas 2
+                        Amortiguador de impactos
                       </span>
                                 <div class="testimonial-content">
                                     <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
@@ -579,7 +578,7 @@
 
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- SERVICES -->
         <div class="row features version2 margin-bottom section fp-auto-height" id="services">
@@ -591,22 +590,22 @@
             <div class="col-sm-4 col-xs-12">
                 <div class="box text-center">
                     <i class="fa fa-truck" aria-hidden="true"></i>
-                    <h4>Free Shipping </h4>
-                    <span>Excepteur sint occaecat cupidatat.</span>
+                    <h4>Envios a todo el pais</h4>
+                    <span>Envios gratis en el gran Mendoza</span>
                 </div>
             </div>
             <div class="col-sm-4 col-xs-12">
                 <div class="box text-center">
                     <i class="fa fa-money" aria-hidden="true"></i>
-                    <h4>100% money back</h4>
-                    <span>Excepteur sint occaecat cupidatat.</span>
+                    <h4>Paga Online</h4>
+                    <span>Paga de forma segura en cuotas</span>
                 </div>
             </div>
             <div class="col-sm-4 col-xs-12">
                 <div class="box text-center">
                     <i class="fa fa-headphones" aria-hidden="true"></i>
-                    <h4>24/7 support</h4>
-                    <span>Excepteur sint occaecat cupidatat.</span>
+                    <h4>Atencion Personalizada</h4>
+                    <span>Asesorate para cualquier consulta</span>
                 </div>
             </div>
         </div>
@@ -614,10 +613,7 @@
         <!-- ABOUT SECTION -->
         <div class="aboutSection text-center section fp-auto-height" id="about">
             <h2>Mundo de Telgopor</h2>
-            <p>Commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                doloremque totam rem aperiam eaque ipsa quae ab illo</p>
+            <p>Nos dedicamos a la fabricación y comercialización de productos de poliestireno expandido, tratamos de satisfacer las necesidades de nuestros clientes, dándole una atención personalizada asesorando y ofreciéndoles productos a medida. Nos comprometemos con honestidad y responsabilidad para proveer productos con calidad a un buen precio.</p>
         </div>
     </div>
 </section>
