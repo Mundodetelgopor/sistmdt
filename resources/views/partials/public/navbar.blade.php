@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index-v1.html"><img src="{{ asset('frontend/img/mdt-logo.png') }}" width="180" height="80" alt="logo"></a>
+            <a class="navbar-brand" href="index-v1.html"><img src="{{ asset('frontend/img/mdt/logo.png') }}" width="180" height="80" alt="logo"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -20,9 +20,9 @@
                 <li class="dropdown">
                     <a id="menu-2" href="#product">Producto</a>
                 </li>
-                <li class="dropdown">
+               <!-- <li class="dropdown">
                     <a id="menu-3" href="#advantage">Ventajas</a>
-                </li>
+                </li> -->
                 <li class="dropdown">
                     <a id="menu-4" href="#services">Servicios</a>
                 </li>

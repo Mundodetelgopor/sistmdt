@@ -4,25 +4,25 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h3 class="modal-title">log in</h3>
+                <h3 class="modal-title">Ingresar</h3>
             </div>
             <div class="modal-body">
                 <form action="" method="POST" role="form">
                     <div class="form-group">
-                        <label for="">Enter Email</label>
+                        <label for="">Email o usuario</label>
                         <input type="email" class="form-control" id="">
                     </div>
                     <div class="form-group">
-                        <label for="">Password</label>
+                        <label for="">Contraseña</label>
                         <input type="password" class="form-control" id="">
                     </div>
                     <div class="checkbox">
                         <label>
-                            <input type="checkbox"> Remember Me
+                            <input type="checkbox"> Recuerdame
                         </label>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-block">log in</button>
-                    <button type="button" class="btn btn-link btn-block">Forgot Password?</button>
+                    <button type="submit" class="btn btn-primary btn-block">Iniciar</button>
+                    <button type="button" class="btn btn-link btn-block">Olvide mi contraseña</button>
                 </form>
             </div>
         </div>
