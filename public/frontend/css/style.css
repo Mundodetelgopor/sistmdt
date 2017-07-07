@@ -416,6 +416,9 @@ a:hover, a:focus {
   font-size: 12px;
   display: inline-block;
 }
+.topBar ul.pull-left li a {
+  font-size: 12px;
+}
 .topBar ul.pull-right > li {
   margin: 0 0 0 13px;
 }
@@ -1734,7 +1737,7 @@ body.bodyColor.container {
   .bannerV2 .btn, .bannerV3 .btn {
     text-indent: 32px;
     font-size: 18px;
-    width: 196px;
+    width: 205px;
     height: 55px;
     line-height: 50px;
     display: inline-block;

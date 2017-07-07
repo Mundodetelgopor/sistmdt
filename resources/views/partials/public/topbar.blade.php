@@ -4,8 +4,8 @@
             <div class="col-md-6 col-sm-7 hidden-xs">
                 <ul class="list-inline pull-left top-left">
                     <li><a href="#"><span><i class="fa fa-map-marker"></i> O´Brien 249 San José - Guaymallén - Mendoza - Arg.</span></a></li>
-                    {{--<li><a href="#"><span><i class="fa fa-clock-o"></i> 8 a 20 hs.</span></a></li>--}}
-                    <li><a href="#"><span><i class="fa fa-dribbble"></i> (54 261) 445 3501</span></a></li>
+                    <li><a href="#"><span><i class="fa fa-clock-o"></i> 8 a 20 hs.</span></a></li>
+                    <li><a href="#"><span><i class="fa fa-phone"></i> (54 261) 445 3501</span></a></li>
                 </ul>
             </div>
             <div class="col-md-6 col-sm-7 col-xs-12">

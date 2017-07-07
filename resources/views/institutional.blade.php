@@ -28,8 +28,7 @@
                              data-start="1500"
                              data-easing="Back.easeInOut"
                              data-endspeed="300">
-                            <img src="{{ asset('frontend/img/home/banner-slider/plancha1.jpg') }}" alt="slider-image"
-                                 style="width: 781px; height: 416px;">
+                            <img src="{{ asset('frontend/img/home/banner-slider/plancha1.jpg') }}" alt="slider-image" style="width: 781px; height: 416px;">
                         </div>
 
                         <div class="tp-caption rs-caption-2 sft"
@@ -63,8 +62,9 @@
                              data-endspeed="300"
                              data-endeasing="Power1.easeIn"
                              data-captionhidden="off">
-                            <span class="page-scroll"><a href="#" class="btn primary-btn">Consultar<i
-                                            class="glyphicon glyphicon-chevron-right"></i></a></span>
+                            <span class="page-scroll">
+                                <a href="#" class="btn primary-btn">Consultar<i class="glyphicon glyphicon-chevron-right"></i></a>
+                            </span>
                         </div>
                     </div>
                 </li>
@@ -113,8 +113,9 @@
                              data-endspeed="300"
                              data-endeasing="Power1.easeIn"
                              data-captionhidden="off">
-                            <span class="page-scroll"><a href="#" class="btn primary-btn">Consultar<i
-                                            class="glyphicon glyphicon-chevron-right"></i></a></span>
+                            <span class="page-scroll">
+                                <a href="#" class="btn btn-xl primary-btn">Consultar<i class="glyphicon glyphicon-chevron-right"></i></a>
+                            </span>
                         </div>
                     </div>
                 </li>
@@ -168,8 +169,9 @@
                              data-endspeed="300"
                              data-endeasing="Power1.easeIn"
                              data-captionhidden="off">
-                            <span class="page-scroll"><a href="#" class="btn primary-btn">Buy Now<i
-                                            class="glyphicon glyphicon-chevron-right"></i></a></span>
+                            <span class="page-scroll">
+                                <a href="#" class="btn primary-btn">Consultar<i class="glyphicon glyphicon-chevron-right"></i></a>
+                            </span>
                         </div>
                     </div>
                 </li>

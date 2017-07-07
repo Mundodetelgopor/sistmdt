@@ -1,6 +1,6 @@
 <!-- PLUGINS CSS STYLE -->
 {!! Html::style('frontend/plugins/jquery-ui/jquery-ui.css') !!}
-{!! Html::style('frontend/plugins/bootstrap/css/bootstrap.min.css') !!}
+{!! Html::style('frontend/plugins/bootstrap/css/bootstrap.css') !!}
 {!! Html::style('frontend/plugins/font-awesome/css/font-awesome.min.css') !!}
 {!! Html::style('frontend/plugins/selectbox/select_option1.css') !!}
 {!! Html::style('frontend/plugins/rs-plugin/css/settings.css') !!}
