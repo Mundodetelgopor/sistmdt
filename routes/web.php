@@ -19,6 +19,16 @@ Route::get('/contact', function () {
     return view('public.contact');
 });
 
+
+Route::post('send', ['as' => 'send', 'uses' => 'MailController@send'] );
+//Route::get('contact', ['as' => 'contact', 'uses' => 'MailController@index'] );
+
+//Route::post('send', function () {
+//    return view('public.contact');
+//});
+
 Route::get('/shop', function () {
     return view('public.shop');
 });
+
+

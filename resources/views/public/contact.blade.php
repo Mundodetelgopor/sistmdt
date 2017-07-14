@@ -47,24 +47,25 @@
                     <h4 class="sub-title">Contact Forms</h4>
 
                     <div id="contact-form-1">
-                        <form id="contactForm" data-toggle="validator" novalidate="true">
+                        {{--<form id="contactForm" data-toggle="validator" novalidate="true">--}}
+                        {!! Form::open(['route' => 'send', 'method' => 'post']) !!}
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Full Name" required="">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" required="">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" class="form-control" id="email" placeholder="Email" required="">
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required="">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <textarea id="message" class="form-control" rows="5" placeholder="Message" required=""></textarea>
+                                        <textarea id="message" name="body" class="form-control" rows="5" placeholder="Message" required=""></textarea>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                     <button type="submit" id="form-submit" class="btn btn-md btn-primary-filled btn-form-submit">Send Message</button>
@@ -72,7 +73,8 @@
                                     <div class="clearfix"></div>
                                 </div>
                             </div>
-                        </form>
+                        {{--</form>--}}
+                        {!! Form::close() !!}
                     </div>
 
                     <div class="space-25">&nbsp;</div>
