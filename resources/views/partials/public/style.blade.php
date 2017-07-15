@@ -13,7 +13,7 @@
 {!! Html::style('frontend/css/style.css') !!}
 {!! Html::style('frontend/options/animate.css') !!}
 {!! Html::style('frontend/options/optionswitch.css') !!}
-{!! Html::style('frontend/css/colors/default.css') !!}
+{!! Html::style('frontend/css/colors/color-option3.css') !!}
 
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
