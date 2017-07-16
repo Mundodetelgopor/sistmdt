@@ -36,15 +36,16 @@
         <div class="container">
             <!-- ABOUT SECTION -->
             <div class="aboutSection text-center">
-                <h2>Bigbag theme</h2>
-                <p>Commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque  totam rem aperiam eaque ipsa quae ab illo</p>
+                <h2>Mundo de Telgopor</h2>
+                <p>Nos dedicamos a la fabricación y comercialización de productos de poliestireno expandido, tratamos de satisfacer las necesidades de nuestros clientes, dándole una atención personalizada asesorando y ofreciéndoles productos a medida. Nos comprometemos con honestidad y responsabilidad para proveer productos con calidad a un buen precio.</p>
             </div>
             <div id="forms" class="margin-bottom">
                 <div class="container">
                     <div class="page-header margin-bottom">
-                        <h4>FORMS</h4>
+                        <h4>CONSULTA</h4>
                     </div>
-                    <h4 class="sub-title">Contact Forms</h4>
+                    <h4 class="sub-title">Para dudas, comentarios o consultas, por favor complete el siguiente formulario y será respondido a la brevedad.
+                        ¡Muchas gracias!</h4>
 
                     <div id="contact-form-1">
                         {{--<form id="contactForm" data-toggle="validator" novalidate="true">--}}
@@ -52,7 +53,7 @@
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" required="">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required="">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                     <div class="form-group">
@@ -60,15 +61,15 @@
                                         <div class="help-block with-errors"></div>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+                                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Asunto">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <textarea id="message" name="body" class="form-control" rows="5" placeholder="Message" required=""></textarea>
+                                        <textarea id="message" name="body" class="form-control" rows="5" placeholder="Mensaje" required=""></textarea>
                                         <div class="help-block with-errors"></div>
                                     </div>
-                                    <button type="submit" id="form-submit" class="btn btn-md btn-primary-filled btn-form-submit">Send Message</button>
+                                    <button type="submit" id="form-submit" class="btn btn-md btn-primary-filled btn-form-submit">Enviar</button>
                                     <div id="msgSubmit" class="h3 text-center hidden"></div>
                                     <div class="clearfix"></div>
                                 </div>
@@ -84,61 +85,13 @@
     </section>
 
     <!-- DARK SECTION -->
-    <section class="darkSection clearfix">
+    <section class="clearfix">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <h3>Our Store Locations</h3>
+                    <h3>Nuestro local</h3>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="thumbnail">
-                        <div class="caption">
-                            <h5>New York</h5>
-                            <address>
-                                Krakovská 1307/22, 110 00 N,Y <br>
-                                Vězeňská 910/2, 110 00 N,Y-Staré  <br>
-                                Město Na Hřebenkách 2, 150 00  <br>
-                                N,Y
-                            </address>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="thumbnail">
-                        <div class="caption">
-                            <h5>Paris</h5>
-                            <address>
-                                Bebelpl. 1, 10117 Paris <br>
-                                Jablonskistraße 16, 10405 Paris <br>
-                                Rigaer Str. 9, 10247 Paris
-                            </address>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="thumbnail">
-                        <div class="caption">
-                            <h5>New York</h5>
-                            <address>
-                                Krakovská 1307/22, 110 00 N,Y <br>
-                                Vězeňská 910/2, 110 00 N,Y-Staré  <br>
-                                Město Na Hřebenkách 2, 150 00  <br>
-                                N,Y
-                            </address>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="thumbnail">
-                        <div class="caption">
-                            <h5>Paris</h5>
-                            <address>
-                                Bebelpl. 1, 10117 Paris <br>
-                                Jablonskistraße 16, 10405 Paris <br>
-                                Rigaer Str. 9, 10247 Paris
-                            </address>
-                        </div>
-                    </div>
+                <div class="col-xs-12" id="map-canvas" style="height: 360px;">
                 </div>
             </div>
         </div>
