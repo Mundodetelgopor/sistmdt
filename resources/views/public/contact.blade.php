@@ -6,7 +6,7 @@
     @include('partials.public.topbar')
 
     <!-- NAVBAR -->
-        @include('partials.public.navbar')
+        @include('partials.public.navbarnotonescroll')
 
     </div>
 
