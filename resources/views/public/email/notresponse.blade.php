@@ -306,12 +306,12 @@
                             <table width="100%" cellpadding="0" cellspacing="0">
                                 <tr>
                                     <td class="content-block">
-                                        Haz recibido una consulta de: {{ $email }}, con el asunto: {{ $subject }}.
+                                        Haz realizado una consulta en Mundo de Telgopor.
                                     </td>
                                 </tr>
                                 <tr>
                                     <td class="content-block">
-                                        Consulta: {{ $body }}
+                                        En breve recibirás la respuesta a tu consulta. Gracias por consultar a Mundo de Telgopor.
                                     </td>
                                 </tr>
                                 <tr>
@@ -321,7 +321,7 @@
                                 </tr>
                                 <tr>
                                     <td class="content-block">
-                                        Consulta a Mundo de Telgopor.
+                                        &mdash; Mundo de Telgopor
                                     </td>
                                 </tr>
                             </table>
@@ -332,6 +332,7 @@
                     <table width="100%">
                         <tr>
                             <td class="aligncenter content-block">Visita <a href="http://mundodetelgopor.com">Mundo de Telgopor</a></td>
+                            {{--<td class="aligncenter content-block">Follow <a href="http://twitter.com/mail_gun">@Mail_Gun</a> on Twitter.</td>--}}
                         </tr>
                     </table>
                 </div></div>
