@@ -44,7 +44,7 @@
                     <h5>Contacto</h5>
                     <ul class="list-unstyled">
                         <li>Llamanos al (0261)-589-4258</li>
-                        <li><a href="mailto:support@iamabdus.com">sistemas.mdt@gmail.com</a></li>
+                        <li><a href="mailto:sistemas.mdt@gmail.com">sistemas.mdt@gmail.com</a></li>
                     </ul>
                     <ul class="list-inline">
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>

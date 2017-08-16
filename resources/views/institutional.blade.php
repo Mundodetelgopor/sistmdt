@@ -79,7 +79,7 @@
                              data-start="1500"
                              data-easing="Back.easeInOut"
                              data-endspeed="300">
-                            <img src="{{ asset('frontend/img/home/banner-slider/plancha2.jpg') }}" alt="slider-image">
+                            <img src="{{ asset('frontend/img/home/banner-slider/product-img9.jpg') }}" alt="slider-image">
                         </div>
 
                         <div class="tp-caption rs-caption-2 sft text-center"
@@ -216,7 +216,7 @@
                 <div class="owl-carousel featuredCollectionSlider">
                     <div class="slide">
                         <div class="productImage clearfix text-left">
-                            <a href="single-product.html"><img src="{{ asset('frontend/img/home/featured-collection/product-img1.png') }}" alt="Product Image"></a>
+                            <a href="single-product.html"><img src="{{ asset('frontend/img/home/featured-collection/plancha1.jpg') }}" alt="Product Image"></a>
                         </div>
                         <div class="productCaption clearfix text-right">
                             <h3><a href="single-product.html">PLACAS POLIESTIRENO EXPANDIDO (EPS)</a></h3>
@@ -226,7 +226,7 @@
                     </div>
                     <div class="slide">
                         <div class="productImage clearfix text-right pull-right">
-                            <a href="single-product.html"><img src="{{ asset('frontend/img/home/featured-collection/product-img2.png') }}" alt="Product Image"></a>
+                            <a href="single-product.html"><img src="{{ asset('frontend/img/home/featured-collection/img14.jpg') }}" alt="Product Image"></a>
                         </div>
                         <div class="productCaption clearfix text-left pull-left">
                             <h3><a href="single-product.html">EMBALAJE PARA BOTELLAS</a></h3>
@@ -275,7 +275,7 @@
                                 <div class="imageBox">
                                     <div class="productImage clearfix">
                                         <a href="single-product.html">
-                                            <img src="{{ asset('frontend/img/home/featured-product/product-img3.jpg') }}" alt="featured-product-img">
+                                            <img src="{{ asset('frontend/img/home/featured-product/img12.jpg') }}" alt="featured-product-img" height="280px">
                                         </a>
                                         <div class="productMasking">
                                             <ul class="list-inline btn-group" role="group">
@@ -286,7 +286,7 @@
                                         </div>
                                     </div>
                                     <div class="productCaption clearfix">
-                                        <h5><a href="single-product.html">Bolsa de Telgopor Molido</a></h5>
+                                        <h5><a href="single-product.html">EMBALAJES</a></h5>
                                         <h3>$199</h3>
                                     </div>
                                 </div>
@@ -295,7 +295,7 @@
                                 <div class="imageBox">
                                     <div class="productImage clearfix">
                                         <a href="single-product.html">
-                                            <img src="{{ asset('frontend/img/home/featured-product/product-img4.jpg') }}" alt="featured-product-img">
+                                            <img src="{{ asset('frontend/img/home/featured-product/img1.jpg') }}" alt="featured-product-img" height="280px">
                                         </a>
                                         <div class="productMasking">
                                             <ul class="list-inline btn-group" role="group">
@@ -315,7 +315,7 @@
                                 <div class="imageBox">
                                     <div class="productImage clearfix">
                                         <a href="single-product.html">
-                                            <img src="{{ asset('frontend/img/home/featured-product/product-img5.jpg') }}" alt="featured-product-img">
+                                            <img src="{{ asset('frontend/img/home/featured-product/img5.jpg') }}" alt="featured-product-img" height="280px">
                                         </a>
                                         <div class="productMasking">
                                             <ul class="list-inline btn-group" role="group">
@@ -335,7 +335,7 @@
                                 <div class="imageBox">
                                     <div class="productImage clearfix">
                                         <a href="single-product.html">
-                                            <img src="{{ asset('frontend/img/home/featured-product/product-img6.jpg') }}" alt="featured-product-img">
+                                            <img src="{{ asset('frontend/img/home/featured-product/img2.jpg') }}" alt="featured-product-img" height="280px">
                                         </a>
                                         <div class="productMasking">
                                             <ul class="list-inline btn-group" role="group">
@@ -379,7 +379,7 @@
                                 <div class="imageBox">
                                     <div class="productImage clearfix">
                                         <a href="single-product.html">
-                                            <img src="{{ asset('frontend/img/home/featured-product/product-img5.jpg') }}" alt="featured-product-img">
+                                            <img src="{{ asset('frontend/img/home/featured-product/img12.jpg') }}" alt="featured-product-img">
                                         </a>
                                         <div class="productMasking">
                                             <ul class="list-inline btn-group" role="group">
@@ -483,7 +483,7 @@
                                 <div class="imageBox">
                                     <div class="productImage clearfix">
                                         <a href="single-product.html">
-                                            <img src="{{ asset('frontend/img/home/featured-product/product-img6.jpg') }}" alt="featured-product-img">
+                                            <img src="{{ asset('frontend/img/home/featured-product/img12.jpg') }}" alt="featured-product-img">
                                         </a>
                                         <div class="productMasking">
                                             <ul class="list-inline btn-group" role="group">
@@ -623,22 +623,23 @@
 <!-- INSTAGRAM SECTION -->
 <section class="instagramSection clearfix">
     <div class="image-gallery">
-        <img src="{{ asset('frontend/img/home/home-gallery/ins-img1.jpg') }}" alt="Image">
+        <img src="{{ asset('frontend/img/home/home-gallery/cartel-img1.jpg') }}" alt="Image" height="280px">
     </div>
     <div class="image-gallery">
-        <img src="{{ asset('frontend/img/home/home-gallery/ins-img2.jpg') }}" alt="Image">
+        <img src="{{ asset('frontend/img/home/home-gallery/interior-img6.jpg') }}" alt="Image" height="280px">
+        
     </div>
     <div class="image-gallery">
-        <img src="{{ asset('frontend/img/home/home-gallery/ins-img3.jpg') }}" alt="Image">
+        <img src="{{ asset('frontend/img/home/home-gallery/ins-img10.jpg') }}" alt="Image" height="280px">
     </div>
     <div class="image-gallery">
-        <img src="{{ asset('frontend/img/home/home-gallery/ins-img4.jpg') }}" alt="Image">
+        <img src="{{ asset('frontend/img/home/home-gallery/ins-img9.jpg') }}" alt="Image" height="280px">
     </div>
     <div class="image-gallery">
-        <img src="{{ asset('frontend/img/home/home-gallery/ins-img5.jpg') }}" alt="Image">
+        <img src="{{ asset('frontend/img/home/home-gallery/ins-img8.jpg') }}" alt="Image" height="280px">
     </div>
     <div class="image-gallery">
-        <img src="{{ asset('frontend/img/home/home-gallery/ins-img6.jpg') }}" alt="Image">
+        <img src="{{ asset('frontend/img/home/home-gallery/ins-img7.jpg') }}" alt="Image" height="280px">
     </div>
 </section>
 @stop
