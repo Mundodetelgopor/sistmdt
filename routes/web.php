@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('institutional');
+    return view('institutionalshop');
 });
 
 Route::get('/contact', function () {
