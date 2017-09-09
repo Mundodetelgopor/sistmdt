@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/contact', function () {
-    return view('public.contact');
+    return view('public.contactshop');
 });
 
 
