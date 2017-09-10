@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('institutionalshop');
+    //return view('institutionalshop');
+    return view('institutionalshopguso');
 });
 
 Route::get('/contact', function () {

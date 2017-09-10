@@ -8,22 +8,22 @@
         <div class="inner">
             <!-- Off-Canvas Toggle (#shop-categories)--><a class="offcanvas-toggle cats-toggle" href="#shop-categories" data-toggle="offcanvas"></a>
             <!-- Off-Canvas Toggle (#mobile-menu)--><a class="offcanvas-toggle menu-toggle" href="#mobile-menu" data-toggle="offcanvas"></a>
-            <!-- Site Logo--><a class="site-logo" href="index.html" tppabs="http://themes.rokaux.com/unishop/v1.1/index.html"><img src="{{ asset('frontendshop/img/logo.png') }}" tppabs="http://themes.rokaux.com/unishop/v1.1/img/logo/logo.png" alt="Unishop"></a>
+            <!-- Site Logo--><a class="site-logo" href="/"><img src="{{ asset('frontend/img/mdt/MDT LOGO.png') }}" alt="Mundo de Telgopor"></a>
         </div>
     </div>
     <!-- Main Navigation-->
     <nav class="site-menu">
         <ul>
-            <li class="active"><a href="index.html" tppabs="http://themes.rokaux.com/unishop/v1.1/index.html"><span>Home</span></a>
+            <li class="active"><a href="/"><span>Inicio</span></a>
             </li>
-            <li><a href="shop-grid-ls.html" tppabs="http://themes.rokaux.com/unishop/v1.1/shop-grid-ls.html"><span>Shop</span></a>
+            <li><a href="shop-grid-ls.html"><span>Shop</span></a>
                 <ul class="sub-menu">
-                    <li><a href="shop-categories.html" tppabs="http://themes.rokaux.com/unishop/v1.1/shop-categories.html">Shop Categories</a></li>
-                    <li class="has-children"><a href="shop-grid-ls.html" tppabs="http://themes.rokaux.com/unishop/v1.1/shop-grid-ls.html"><span>Shop Grid</span></a>
+                    <li><a href="shop-categories.html">Shop Categories</a></li>
+                    <li class="has-children"><a href="shop-grid-ls.html"><span>Shop Grid</span></a>
                         <ul class="sub-menu">
-                            <li><a href="shop-grid-ls.html" tppabs="http://themes.rokaux.com/unishop/v1.1/shop-grid-ls.html">Grid Left Sidebar</a></li>
-                            <li><a href="shop-grid-rs.html" tppabs="http://themes.rokaux.com/unishop/v1.1/shop-grid-rs.html">Grid Right Sidebar</a></li>
-                            <li><a href="shop-grid-ns.html" tppabs="http://themes.rokaux.com/unishop/v1.1/shop-grid-ns.html">Grid No Sidebar</a></li>
+                            <li><a href="shop-grid-ls.html">Grid Left Sidebar</a></li>
+                            <li><a href="shop-grid-rs.html">Grid Right Sidebar</a></li>
+                            <li><a href="shop-grid-ns.html">Grid No Sidebar</a></li>
                         </ul>
                     </li>
                     <li class="has-children"><a href="shop-list-ls.html" tppabs="http://themes.rokaux.com/unishop/v1.1/shop-list-ls.html"><span>Shop List</span></a>
