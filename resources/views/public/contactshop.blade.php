@@ -10,7 +10,7 @@
                     <li><a href="index.html">Inicio</a>
                     </li>
                     <li class="separator">&nbsp;</li>
-                    <li>Contacto <a class="hidden-md-down" href="tel:00331697720"><i class="icon-bell"></i>&nbsp; (54 261) 445 3501</a></li>
+                    <li>Contacto</li>
                 </ul>
             </div>
         </div>

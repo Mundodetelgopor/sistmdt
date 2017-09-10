@@ -5,7 +5,7 @@
                 <!-- Contact Info-->
                 <section class="widget widget-light-skin">
                     <h3 class="widget-title">Get In Touch With Us</h3>
-                    <p class="text-white">Phone: 00 33 169 7720</p>
+                    <p class="text-white"><a class="hidden-md-down" href="tel:00331697720">(54 261) 445 3501</a></p>
                     <ul class="list-unstyled text-sm text-white">
                         <li><span class="opacity-50">Monday-Friday:</span>9.00 am - 8.00 pm</li>
                         <li><span class="opacity-50">Saturday:</span>10.00 am - 6.00 pm</li>
