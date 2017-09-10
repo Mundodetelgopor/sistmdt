@@ -10,7 +10,7 @@
                     <li><a href="index.html">Inicio</a>
                     </li>
                     <li class="separator">&nbsp;</li>
-                    <li>Contacto</li>
+                    <li>Contacto <a class="hidden-md-down" href="tel:00331697720"><i class="icon-bell"></i>&nbsp; (54 261) 445 3501</a></li>
                 </ul>
             </div>
         </div>
@@ -22,6 +22,13 @@
                 <h1>Consulta</h1>
                 <p class="lead"><strong>Para dudas, comentarios o consultas</strong> por favor complete el siguiente
                     formulario y será respondido a la brevedad. ¡Muchas gracias!</p>
+
+                @isset($result)
+                    @component('components.alert')
+                        {{$result}}
+                    @endcomponent
+                @endisset
+
                 {!! Form::open(['route' => 'send', 'method' => 'post']) !!}
                 <div class="form-group row margin-top-1x">
                     <label class="col-2 col-form-label" for="text-input">Nombre</label>
@@ -63,11 +70,9 @@
             </div>
             <div class="col-md-5">
                 <ul class="list-icon">
-                    <li><i class="icon-mail"></i><a class="navi-link"
-                                                    href="mailto:customer.service@unishop.com">info@mundodetelgopor
-                            .com</a></li>
-                    <li><i class="icon-bell"></i>+1(080) 44 357 260</li>
-                    <li><i class="icon-clock"></i>1 - 2 business days</li>
+                    <li><i class="icon-mail"></i><a class="navi-link" href="mailto:info@mundodetelgopor.com">info@mundodetelgopor.com</a></li>
+                    <li><i class="icon-bell"></i>(54 261) 445 3501</li>
+                    <li><i class="icon-clock"></i>8 a 20 hs.</li>
                 </ul>
             </div>
         </div>
@@ -80,12 +85,12 @@
                 <ul class="list-icon">
                     <li><i class="icon-mail"></i><a class="navi-link" href="mailto:support@unishop.com">info@mundodetelgopor.com</a></li>
                     <li><i class="icon-bell"></i>00 33 169 7720</li>
-                    <li><i class="icon-clock"></i>1 - 2 business days</li>
+                    <li><i class="icon-clock"></i>8 a 20 hs.</li>
                 </ul>
             </div>
         </div>
 
-        <h3 class="margin-top-3x text-center mb-30">Outlet Stores</h3>
+        <h3 class="margin-top-3x text-center mb-30">Local</h3>
         <div class="col-md-12 col-sm-6">
             <div class="card mb-30">
                 <div class="google-map" id="map-canvas" style="height: 360px;">

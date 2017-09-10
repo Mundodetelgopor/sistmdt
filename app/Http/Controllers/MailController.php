@@ -45,6 +45,6 @@ class MailController extends Controller
 
         });
         //dd('Mail Send Successfully');
-        return view('public.contact');
+        return view('public.contactshop', ['result' => 'Su consulta se ha enviado con éxito.']);
     }
 }
